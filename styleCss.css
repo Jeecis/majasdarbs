@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2021, 11:46:10 AM
+    Author     : jekab
+*/
+section{
+     background-image: url('skola.jpg');
+     background-size: 50px 50px;
+    background-repeat:repeat-y;
+    background-repeat:repeat-x;
+}
+

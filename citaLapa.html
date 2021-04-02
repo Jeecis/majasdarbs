@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formas</title>
+    <script>
+    function krasot(){
+        var kr=document.getElementById("krasa").value;
+        document.getElementById("fons").style="background-color:"+kr;
+        document.getElementById("fons").innerHTML="Krāsa nomainīta";
+        document.getElementById("fons").style.color=document.getElementById("krasa").vlaue;
+    }
+    var p=new Date();
+    </script>
+</head>
+<body>
+<form>
+  <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
+  <input type="color" id="krasa" value="#00ff00" onchange="krasot();" >
+  <div>Datums<input type="text" name="rez"> </div>
+  <div> 
+      <input value="Poga ;)" name="plus" onclick="rez.value=new Date(p.getFullYear(),
+                  p.getMonth(),((p.getDate())-(-1*rez.value)),p.getHours(),p.getMinutes())" type="button">
+  </div>
+</form>
+</body>
+</html>
